@@ -1,3 +1,5 @@
 node_modules
 metabase.jar
 plugins/
+
+!plugins/sample-database.db.mv.db
