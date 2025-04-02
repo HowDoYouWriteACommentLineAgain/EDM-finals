@@ -1,3 +1,13 @@
+# EDM Finals
+
+download metabase jar file from [Link](https://www.metabase.com/start/oss/).
+Start SQL server in xampp DBeaver. Open 
+
+***
+# Default md file
+
+
+
 # [Start Bootstrap - SB Admin 2](https://startbootstrap.com/theme/sb-admin-2/)
 
 [SB Admin 2](https://startbootstrap.com/theme/sb-admin-2/) is an open source admin dashboard theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
