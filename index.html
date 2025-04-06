@@ -64,9 +64,9 @@
                 <div id="collapseDashboards" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Dashboard:</h6>
-                        <a class="collapse-item" href="#">Dashboard 1</a>
-                        <a class="collapse-item" href="#">Dashboard 2</a>
-                        <a class="collapse-item" href="#">Dashboard 3</a>
+                        <a class="collapse-item" target="dashboardFrame" href="http://localhost:3000/public/dashboard/c25e4caa-9c38-44e2-8530-d69de2c03c86">Scheduling</a>
+                        <a class="collapse-item" target="dashboardFrame" href="	http://localhost:3000/public/dashboard/1b0da69e-ce10-4bb7-ad8d-ffcf524dcc22">Daily</a>
+                        <a class="collapse-item" target="dashboardFrame" href="http://localhost:3000/public/dashboard/c2e121e9-a837-4a7e-a9a9-985ae5e4011f">Statistics</a>
                     </div>
                 </div>
             </li>
@@ -135,7 +135,7 @@
         <div id="content-wrapper" class="d-flex flex-column">
 
             <!-- Main Content -->
-            <div id="content">
+            <div id="content" class="h-100">
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
@@ -342,13 +342,14 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <div class="container-fluid">
+                <div class="container-fluid h-75">
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
                     </div>
 
+                    <iframe class="h-100" name="dashboardFrame" width="100%" frameborder="1" src="	http://localhost:3000/public/dashboard/c25e4caa-9c38-44e2-8530-d69de2c03c86"></iframe>
                 </div>
                 <!-- /.container-fluid -->
 
